@@ -1,0 +1,29 @@
+<template>
+  <div class="map-box">
+    <el-button>122313</el-button>
+    <div id="cesiumContainer"></div>
+  </div>
+</template>
+
+<script>
+// let Cesium = require('Cesium')
+export default {
+  name: 'testT',
+  mounted () {
+    // eslint-disable-next-line no-undef
+    // var viewer = new this.Cesium.Viewer('cesiumContainer')
+    // // eslint-disable-next-line no-console
+    // console.log(viewer)
+  }
+}
+</script>
+<style scoped>
+  .map-box{
+    width: 100%;
+    height: 100%;
+  }
+  #cesiumContainer{
+    width: 100%;
+    height: 100%;
+  }
+</style>
